@@ -14,11 +14,11 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 
-add_executable(my_first_node src/my_first_node.cpp)
-ament_target_dependencies(my_first_node rclcpp)
+add_executable(demo_node src/main.cpp)
+ament_target_dependencies(demo_node rclcpp)
 
 install(TARGETS
-  my_first_node
+  demo_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
