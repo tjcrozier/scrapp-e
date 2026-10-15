@@ -1,0 +1,7 @@
+# use this for composing nodes on raspberry pi for deploying to scrapp-e
+# basically just spins up a container for each node
+# will need modifications if we end up splitting workload across containers
+
+# TO DO:
+# set up network bridge for internode communication
+# pull down 
