@@ -41,5 +41,5 @@ Start the container using its container ID (-i flag attaches a command line inte
 $ docker start -i [CONTAINERID]
 ```
 
-## Deployment for Scrapp-e/Raspberry Pi based testbed
+<!-- ## Deployment for Scrapp-e/Raspberry Pi based testbed -->
 <!-- put instructions for docker compose -->
